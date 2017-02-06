@@ -7,12 +7,12 @@
 		
 		<div ng-controller='unitConversionController as ucc'>
 			<input type='text' ng-model='ucc.input' placeholder='Enter amount'></input>
-			<select ng-model='ucc.firstSel' 
+			<select ng-model='ucc.firstSelection' 
 					ng-options='unit.unitname for unit in ucc.volumeUnits'
 					ng-change='ucc.showSelectedUnit()'>
 			<option value="" disabled>From</option>
 			</select>
-			<select ng-model='ucc.secondSel' 
+			<select ng-model='ucc.secondSelection' 
 					ng-options='unit.unitname for unit in ucc.volumeUnits'
 					ng-change='ucc.showSelectedUnit()'>
 			<option value="" disabled>To</option>
@@ -23,9 +23,9 @@
     			</form>
 			</div>
 			<div>
-				<p> Conversion Result: {{ucc.input}} {{ucc.firstSel.unitname}} = <span ng-bind='ucc.conversionResults'></span> {{ucc.secondSel.unitname}}</p> 
+				<p> Conversion Result: {{ucc.input}} {{ucc.firstSelection.unitname}} = <span ng-bind='ucc.conversionResults'></span> {{ucc.secondSelection.unitname}}</p> 
 			</div>
-		</div> <!--unitConversionController-->
+		</div>
 		
 	</body>
 	<script src='angular.min.js'></script>
