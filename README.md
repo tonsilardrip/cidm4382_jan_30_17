@@ -1,18 +1,10 @@
+# Unit Conversion App from metric to imperical
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This app just takes the user's input and converts from metric to imperical "English System"
+
+## Getting Started
 
 
-Hi there! Welcome to Cloud9 IDE!
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
 
-Happy coding!
-The Cloud9 IDE team
+![alt text](http://bluewebspark.com/wp-content/uploads/2016/10/mobile-app-development-myths.png "Logo Title Text 1")
